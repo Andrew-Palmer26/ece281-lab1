@@ -75,6 +75,7 @@ begin
 	w_sel(1) <= i_C;
 	w_sel(0) <= i_D;
 	
+	
 	--enter your logic here to implement the mux.  See VHDL reference sheet for MUX syntax.	
     o_Y <= i_A when (w_sel = b"000") else
            NOT i_A when (w_sel = b"001") else
